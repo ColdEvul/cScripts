@@ -66,6 +66,11 @@ if (_reGearOption) then {
     [_object, _reHealOption] call FUNC(addReGear);
 };
 
+// Acquisition System
+if (_reGearOption) then {
+    [_object] call FUNC(addAcquisition);
+};
+
 // Call addHeal option
 if (_reHealOption) then {
     [_object] call FUNC(addHeal);

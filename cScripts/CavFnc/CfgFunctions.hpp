@@ -104,6 +104,7 @@ class cScripts {
         class addAceCategory {};
         class addLoadoutAction {};
 
+        class addAcquisition {};
         class doGetOutHeloSide {};
 
         class addQuickSelectionList {};
