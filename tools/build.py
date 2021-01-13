@@ -212,7 +212,7 @@ def main():
     if args.build:
         if not os.path.isfile(os.path.join(scriptRoot, args.build)):
             printC('ERROR:', color='\033[31m', end=' ')
-            print('\'{}\' does not exist'.format(args.build))
+            print('Config file \'{}\' does not exist...'.format(args.build))
             sys.exit(1)
         if 'config.json' in args.build:
             printC('WARNING:', color='\033[93m', end=' ')
